@@ -1,6 +1,0 @@
-{
-  "DB_HOST": "localhost",
-  "DB_NAME": "Skin_Cancer_Detection_Images",
-  "DB_USER": "postgres",
-  "DB_PASS": ""
-}
