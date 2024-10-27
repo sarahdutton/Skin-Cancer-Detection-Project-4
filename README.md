@@ -73,7 +73,7 @@ The model includes 128,964,930 parameteres, 2,944 of which are not trainable.
 
 The model was trained over 10 epochs, achieving a training accuracty of 99.9%. This result cannot simply be accepted however, due to two concerns. One is that the result is too good to be true. One would expect a model of this complexity trained on a dataset of this size to need many more than 10 epochs to reach such a high accuracy. The second is the pattern of accuracy epoch-by-epoch. In the eight epoch, the model showed 99.99% accuracy. This dropped to below 70% accuracy in the ninth epoch and rebounded to 96.79% accuracy in the tenth. That pattern is atypical and raises questions about underlying problems in the model.
 
-![alt text]('./Figure.png')
+![alt text](Figure.png)
 
 The second model (SC_CNN_1.ipynb) is summarized as follows.
 
