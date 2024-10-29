@@ -36,3 +36,15 @@ In order to improve the model, several next steps are available.
  - Including sex, age, and localization data might also improve accuracy.
 
 An analysis that includes precision and recall would also be beneficial in this use case. For such an app as dicussed above, a false negative would be much more dangerous than a false positive, since the former might result in a user not seeking medical attention when it is necessary.
+
+## References
+- GeeksforGeeks: Skin Cancer Detection Using TensorFlow. Available at https://www.geeksforgeeks.org/skin-cancer-detection-using-tensorflow/. Accessed [insert date here].
+- Kaggle Code: HAM10000 Skin Cancer Classification by Kaushil. Available at https://www.kaggle.com/code/kaushil268/ham10000-skin-cancer-classification. Accessed [insert date here].
+- Kaggle Dataset: Skin Cancer MNIST: HAM10000. Available at https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000. Accessed [insert date here].
+- TensorFlow API Documentation: Conv2D Layer. Available at https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv2D. Accessed [insert date here].
+- TensorFlow API Documentation: Flatten Layer. Available at https://www.tensorflow.org/api_docs/python/tf/keras/layers/Flatten. Accessed [insert date here].
+- TensorFlow API Documentation: MaxPool2D Layer. Available at https://www.tensorflow.org/api_docs/python/tf/keras/layers/MaxPool2D. Accessed [insert date here].
+
+## Model Acknowledgment
+The convolutional neural network (CNN) model architecture used in this project was inspired by the VGG16 model structure as described in the paper: Very Deep Convolutional Networks for Large-Scale Image Recognition by K. Simonyan and A. Zisserman, available at https://arxiv.org/abs/1409.1556.
+
